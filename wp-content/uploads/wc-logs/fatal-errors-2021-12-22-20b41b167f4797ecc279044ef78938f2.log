@@ -1,0 +1,9 @@
+2021-12-22T11:31:42+00:00 CRITICAL Uncaught Error: Class 'WPML_Redirection' not found in /home/bigvacation/public_html/wp-content/plugins/sitepress-multilingual-cms/classes/request-handling/redirection/wpml-redirect-by-param.class.php:3
+Stack trace:
+#0 /home/bigvacation/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/composer/ClassLoader.php(444): include()
+#1 /home/bigvacation/public_html/wp-content/plugins/sitepress-multilingual-cms/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/bigvacati...')
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass('WPML_Redirect_B...')
+#3 /home/bigvacation/public_html/wp-content/plugins/sitepress-multilingual-cms/classes/request-handling/redirection/wpml-frontend-redirection.php(41): spl_autoload_call('WPML_Redirect_B...')
+#4 /home/bigvacation/public_html/wp-content/plugins/sitepress-multilingual-cms/sitepress.class.php(556): _wpml_get_redirect_helper()
+#5 /home/bigvacation/public_html/wp-includes/class-wp-hook.php(303): SitePress->maybe_set_this_lang('' en /home/bigvacation/public_html/wp-content/plugins/sitepress-multilingual-cms/classes/request-handling/redirection/wpml-redirect-by-param.class.php en la línea 3
+

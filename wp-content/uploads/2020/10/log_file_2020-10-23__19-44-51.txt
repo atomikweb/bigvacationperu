@@ -1,0 +1,110 @@
+
+---Downloaded files---
+The import files for: Entrada Modern Demo Import were successfully downloaded!
+Initial max execution time = 1200
+Files info:
+Site URL = http://localhost:10010
+Data file = D:\CJ Creative Labs\big-vacation-peru\app\public/wp-content/themes/entrada/ocdi/modern/demo-content-modern.xml
+Widget file = D:\CJ Creative Labs\big-vacation-peru\app\public/wp-content/themes/entrada/ocdi/modern/widgets-modern.wie
+Customizer file = D:\CJ Creative Labs\big-vacation-peru\app\public/wp-content/themes/entrada/ocdi/modern/customizer-modern.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] This WXR file (version 1.2) is newer than the importer (version 1,2) and may not be supported. Please consider updating.
+[WARNING] Failed to import action-group wc_update_product_lookup_tables
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] This WXR file (version 1.2) is newer than the importer (version 1,2) and may not be supported. Please consider updating.
+[WARNING] Failed to import action-group wc_update_product_lookup_tables
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] This WXR file (version 1.2) is newer than the importer (version 1,2) and may not be supported. Please consider updating.
+[WARNING] Failed to import action-group wc_update_product_lookup_tables
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] This WXR file (version 1.2) is newer than the importer (version 1,2) and may not be supported. Please consider updating.
+[WARNING] Failed to import action-group wc_update_product_lookup_tables
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] This WXR file (version 1.2) is newer than the importer (version 1,2) and may not be supported. Please consider updating.
+[WARNING] Failed to import action-group wc_update_product_lookup_tables
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] This WXR file (version 1.2) is newer than the importer (version 1,2) and may not be supported. Please consider updating.
+[WARNING] Failed to import action-group wc_update_product_lookup_tables
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] This WXR file (version 1.2) is newer than the importer (version 1,2) and may not be supported. Please consider updating.
+[WARNING] Failed to import action-group wc_update_product_lookup_tables
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] This WXR file (version 1.2) is newer than the importer (version 1,2) and may not be supported. Please consider updating.
+[WARNING] Failed to import action-group wc_update_product_lookup_tables
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+------
+New AJAX call!
+[WARNING] This WXR file (version 1.2) is newer than the importer (version 1,2) and may not be supported. Please consider updating.
+[WARNING] Failed to import action-group wc_update_product_lookup_tables
+[WARNING] Failed to import action-group woocommerce-db-updates
+
+
+---Importing widgets---
+Sidebar : 
+
+Buscar - No Title - Widget already exists
+Entradas recientes - No Title - Widget already exists
+Comentarios recientes - No Title - Widget already exists
+Archivos - No Title - Widget already exists
+Categorías - No Title - Widget already exists
+Meta - No Title - Widget already exists
+Categorías - No Title - Imported
+Menú de navegación - Top Activity - Imported
+Texto - About Us - Imported
+
+Footer : 
+
+Texto - About Us - Imported
+Entrada Categories - Categories - Imported
+Entrada Footer Contact - Contact - Imported
+Entrada Posts Gallery - Post Gallery - Imported
+
+Listing Sidebar : 
+
+Entrada Region Filter - SELECT REGION - Imported
+Entrada Activity Type Filter - ACTIVITY THEME - Imported
+Entrada Activity Level Filter - ACTIVITY LEVEL - Imported
+Entrada Price Range Filter - PRICE RANGE - Imported
+Entrada Poll - COMMUNITY POLL - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+Entrada Demo content import has been completed.

@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* Visual Composer overwrite css by theme */
+.wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .wpb_button {
+    margin-bottom: 0 !important;
+}
+.browse-block .vc_col-sm-6{ padding-left: 0; padding-right: 0; }
+
+.browse-block .column { width: auto; display: block;}
+
+.browse-block.vc_row { margin-left: 0; margin-right: 0;}
+
+.count-block .vc_column-inner,
+.browse-block .vc_column-inner{ padding:0 !important;}
+
+.count-block .wpb_wrapper {
+	display: block;
+}
+
+.content-block-no-padding-margin.row .vc_column-inner {
+    padding: 0 !important;
+}
+
+/* .vc_tta.vc_general .vc_tta-panel { 
+    display: none; 
+} 
+
+.vc_tta.vc_general .vc_tta-panel.vc_active, .vc_tta.vc_general .vc_tta-panel.vc_active .vc_tta-panel-body { 
+    display: block; 
+}
+
+.wpb_column .vc_tta-accordion .vc_tta-panel {
+	display:block;
+}
+
+.vc_tta.vc_general.vc_tta-accordion .vc_tta-panel-heading {
+	display: block;
+}
+
+.vc_tta-accordion .vc_tta-panel-body {
+	display: none;
+} */

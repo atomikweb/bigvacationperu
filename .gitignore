@@ -1,0 +1,10 @@
+.idea
+.git
+wp-content/cache/
+wp-content/uploads/cache
+wp-config.php
+.well-known
+**/.DS_Store
+wp-content/advanced-cache.php
+wp-content/uploads/rank-math/
+error_log

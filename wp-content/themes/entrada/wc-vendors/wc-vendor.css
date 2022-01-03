@@ -1,0 +1,196 @@
+.inner-main .button,
+.inner-main .btn {
+	padding: 14px 10px;
+	font-weight: 700;
+	color: #515151;
+	background-color: #6b6957;
+	border: 0;
+	white-space: nowrap;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0 10px 15px;
+	min-width: 120px;
+}
+
+.inner-main .button:last-child,
+.inner-main .btn:last-child {
+	margin-right: 0;
+}
+
+.inner-main .button:hover,
+.inner-main .btn:hover {
+	background: #b0a377;
+	color: #fff;
+}
+
+.inner-main center {
+	margin-bottom: 30px;
+}
+
+.inner-main center .button {
+	width: 200px;
+}
+
+.inner-main center .button:last-child {
+	margin-right: 10px;
+}
+
+.inner-main h2 {
+	margin-top: 30px;
+}
+
+.inner-main form {
+	margin-bottom: 30px;
+	background: #fdfdfd;
+	padding: 20px;
+	border: 1px solid #f0f0f0;
+	overflow: hidden;
+}
+
+.inner-main form .btn {
+	margin-left: 0;
+}
+
+.inner-main .date-pick {
+	display: block;
+	border: 2px solid #f5f5f5;
+	margin-bottom: 25px;
+	width: 100%;
+	max-width: 400px;
+	padding: 10px;
+	height: 40px;
+	margin-top: 15px;
+}
+
+.inner-main table.table {
+	margin: 40px 0;
+	border-collapse: separate;
+	table-layout: auto;
+}
+
+.inner-main table.table tr td,
+.inner-main table.table tr th {
+	padding: 15px;
+	border-top: 1px solid #f5f5f5;
+}
+
+.inner-main table.table thead tr th {
+	background: #f0f0f0;
+	padding: 15px;
+}
+
+.inner-main table.table tbody tr:first-child td {
+	border-top: 1px solid #f5f5f5;
+}
+
+.inner-main table.table tbody tr:hover td {
+	background: #f5f5f5;
+}
+
+.inner-main table.table tbody tr td {
+	padding: 15px;
+}
+
+.inner-main input[type='text'],
+.inner-main input[type='search'],
+.inner-main input[type='password'],
+.inner-main textarea,
+.inner-main input[type='email'] {
+	background: #fff;
+	border: 2px solid #f0f0f0;
+	padding: 10px;
+	height: 40px;
+	width: 100%;
+	max-width: 400px;
+}
+
+.inner-main .pv_paypal_container,
+.inner-main .pv_shop_name_container,
+.inner-main #pv_seller_info_container,
+.inner-main #pv_shop_description_container {
+	margin-bottom: 45px;
+}
+
+.inner-main .pv_paypal_container b,
+.inner-main .pv_shop_name_container b,
+.inner-main #pv_seller_info_container b,
+.inner-main #pv_shop_description_container b {
+	margin-bottom: -15px;
+	display: block;
+}
+
+.inner-main .pv_paypal_container input[type='text'],
+.inner-main .pv_paypal_container input[type='search'],
+.inner-main .pv_paypal_container input[type='password'],
+.inner-main .pv_paypal_container textarea,
+.inner-main .pv_paypal_container input[type='email'],
+.inner-main .pv_shop_name_container input[type='text'],
+.inner-main .pv_shop_name_container input[type='search'],
+.inner-main .pv_shop_name_container input[type='password'],
+.inner-main .pv_shop_name_container textarea,
+.inner-main .pv_shop_name_container input[type='email'],
+.inner-main #pv_seller_info_container input[type='text'],
+.inner-main #pv_seller_info_container input[type='search'],
+.inner-main #pv_seller_info_container input[type='password'],
+.inner-main #pv_seller_info_container textarea,
+.inner-main #pv_seller_info_container input[type='email'],
+.inner-main #pv_shop_description_container input[type='text'],
+.inner-main #pv_shop_description_container input[type='search'],
+.inner-main #pv_shop_description_container input[type='password'],
+.inner-main #pv_shop_description_container textarea,
+.inner-main #pv_shop_description_container input[type='email'] {
+	margin-top: 15px;
+}
+
+.inner-main .pv_paypal_container #wp-pv_seller_info-wrap,
+.inner-main .pv_paypal_container #wp-pv_shop_description-wrap,
+.inner-main .pv_shop_name_container #wp-pv_seller_info-wrap,
+.inner-main .pv_shop_name_container #wp-pv_shop_description-wrap,
+.inner-main #pv_seller_info_container #wp-pv_seller_info-wrap,
+.inner-main #pv_seller_info_container #wp-pv_shop_description-wrap,
+.inner-main #pv_shop_description_container #wp-pv_seller_info-wrap,
+.inner-main #pv_shop_description_container #wp-pv_shop_description-wrap {
+	margin-top: 25px;
+}
+
+.inner-main .order-comments textarea,
+.inner-main .order-comments input {
+	width: 100%;
+	max-width: 400px;
+	display: block;
+	margin-top: 20px;
+}
+
+.inner-main .order-comments textarea {
+	min-height: 100px;
+}
+
+.inner-main .order-comments form {
+	background: none;
+	padding: 0;
+	border: 0;
+}
+
+.inner-main .order-comments p {
+	margin: 0 0 20px;
+}
+
+.inner-main .woocommerce-message {
+	margin-bottom: 20px;
+	background: #fff;
+	border: 1px solid #f5f5f5;
+	color: #5c5e62;
+}
+
+.inner-main .wp-core-ui .button, .inner-main .wp-core-ui .button-secondary {
+	min-width: 1px;
+	font-weight: 400;	
+}
+
+.inner-main .wp-editor-container textarea.wp-editor-area {
+	max-width: none;
+	min-height: 250px;	
+}

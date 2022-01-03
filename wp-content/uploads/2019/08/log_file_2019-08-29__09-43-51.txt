@@ -1,0 +1,65 @@
+
+---Downloaded files---
+The import files for: Entrada Modern Demo Import were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://demo.waituk.com/entrada-modern-407
+Data file = /var/www/demo.waituk.com/wp/wp-content/themes/entrada/ocdi/modern/demo-content-modern.xml
+Widget file = /var/www/demo.waituk.com/wp/wp-content/themes/entrada/ocdi/modern/widgets-modern.wie
+Customizer file = /var/www/demo.waituk.com/wp/wp-content/themes/entrada/ocdi/modern/customizer-modern.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[ERROR] Failed to import "shutterstock_457963999" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "shutterstock_457963999" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "shutterstock_457963999" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "shutterstock_457963999" (Media)
+[WARNING] Failed to import "Adult": Invalid post type bookable_person
+[WARNING] Failed to import "Children": Invalid post type bookable_person
+
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Widget already exists
+Recent Posts - No Title - Widget already exists
+Categories - No Title - Imported
+Navigation Menu - Top Activity - Imported
+Text - About Us - Imported
+
+Footer : 
+
+Text - About Us - Imported
+Entrada Categories - Categories - Imported
+Entrada Footer Contact - Contact - Imported
+Entrada Posts Gallery - Post Gallery - Imported
+
+Listing Sidebar : 
+
+Entrada Region Filter - SELECT REGION - Imported
+Entrada Activity Type Filter - ACTIVITY THEME - Imported
+Entrada Activity Level Filter - ACTIVITY LEVEL - Imported
+Entrada Price Range Filter - PRICE RANGE - Imported
+Entrada Poll - COMMUNITY POLL - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+Entrada Demo content import has been completed.

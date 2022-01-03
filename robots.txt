@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /error-404/
+Disallow: /wp-login.php/
+Disallow: /contacto/
+
+Sitemap: https://bigvacationperu.com/sitemap_index.xml

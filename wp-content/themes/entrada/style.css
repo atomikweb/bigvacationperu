@@ -1,0 +1,17 @@
+/*
+Theme Name: Entrada
+Theme URI: https://themes.waituk.com/entrada-intro/
+Author: WAITUK
+Author URI: https://www.waituk.com
+Description: Clean, modern, and responsive WordPress adventure theme by WAITUK
+Version: 4.4.7
+License: Themeforest Regular License
+License URI: http://themeforest.net/licenses/standard
+Text Domain: entrada
+Tags: two-columns, three-columns, four-columns, right-sidebar, left-sidebar, full-width-template, custom-background, custom-colors, custom-menu, featured-images, microformats, translation-ready
+*/
+
+/*
+Style.css file is inside dist/css folder
+*/
+@import '../entrada/dist/styles/main.css';

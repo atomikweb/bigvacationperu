@@ -1,0 +1,22 @@
+2021-12-21T03:04:12+00:00 CRITICAL Uncaught Error: Class 'WPSEO_Meta' not found in /home/bigvacation/public_html/wp-content/plugins/wordpress-seo-premium/wp-seo-main.php:296
+Stack trace:
+#0 /home/bigvacation/public_html/wp-includes/class-wp-hook.php(303): wpseo_init('')
+#1 /home/bigvacation/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/bigvacation/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/bigvacation/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/bigvacation/public_html/wp-config.php(80): require_once('/home/bigvacati...')
+#5 /home/bigvacation/public_html/wp-load.php(50): require_once('/home/bigvacati...')
+#6 /home/bigvacation/public_html/wp-blog-header.php(13): require_once('/home/bigvacati...')
+#7 /home/bigvacation/public_html/index.php(17): require('/home/bigvacati...')
+#8 {main}
+  thrown en /home/bigvacation/public_html/wp-content/plugins/wordpress-seo-premium/wp-seo-main.php en la línea 296
+
+2021-12-21T03:04:12+00:00 CRITICAL Uncaught Error: Call to a member function withArgument() on null in /home/bigvacation/public_html/wp-content/plugins/wp-rocket/inc/classes/ServiceProvider/class-updater-subscribers.php:54
+Stack trace:
+#0 /home/bigvacation/public_html/wp-content/plugins/wp-rocket/inc/Engine/Container/ServiceProvider/ServiceProviderAggregate.php(84): WP_Rocket\ServiceProvider\Updater_Subscribers->register()
+#1 /home/bigvacation/public_html/wp-content/plugins/wp-rocket/inc/Engine/Container/Container.php(88): WP_Rocket\Engine\Container\ServiceProvider\ServiceProviderAggregate->register('plugin_updater_...')
+#2 /home/bigvacation/public_html/wp-content/plugins/wp-rocket/inc/Plugin.php(115): WP_Rocket\Engine\Container\Container->get('plugin_updater_...')
+#3 /home/bigvacation/public_html/wp-content/plugins/wp-rocket/inc/main.php(48): WP_Rocket\Plugin->load()
+#4 /home/bigvacation/public_html/wp-includes/class-wp-hook.php(303): rocket_init('')
+#5 /home/bigvacation/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(N en /home/bigvacation/public_html/wp-content/plugins/wp-rocket/inc/classes/ServiceProvider/class-updater-subscribers.php en la línea 54
+

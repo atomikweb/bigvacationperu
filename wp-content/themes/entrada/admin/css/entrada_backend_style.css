@@ -1,0 +1,470 @@
+/* Entrada Backend Style 
+
+...................................*/
+
+.ui-tabs.ui-tabs-vertical {
+	padding: 0;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-widget-header {
+	border: none;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+	float: left;
+	width: 10em;
+	background: #ccc;
+	border-radius: 4px 0 0 4px;
+	border-right: 1px solid gray;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	width: 100%;
+	margin: .2em 0;
+	border: 1px solid gray;
+	border-width: 1px 0 1px 1px;
+	border-radius: 4px 0 0 4px;
+	overflow: hidden;
+	position: relative;
+	right: -2px;
+	z-index: 2;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+	display: block;
+	width: 100%;
+	padding: .6em 1em;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:hover {
+	cursor: pointer;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: .2em;
+	padding-bottom: 0;
+	border-right: 1px solid white;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li:last-child {
+	margin-bottom: 10px;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+	float: left;
+	width: 28em;
+	border-left: 1px solid gray;
+	border-radius: 0;
+	position: relative;
+	left: -1px;
+}
+
+.product_tab_attributes .ui-state-default,
+.product_tab_attributes .ui-widget-content .ui-state-default,
+.product_tab_attributes .ui-widget-header .ui-state-default {
+	background: none;
+	border-radius: 0;
+}
+
+.product_tab_attributes .ui-tabs .ui-tabs-nav {
+	padding: 0;
+	border-radius: 0;
+	background: #fafafa;
+	border: solid #eee;
+	border-width: 0 1px 0 0;
+	width: 200px;
+}
+
+.product_tab_attributes .ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
+	border: solid #eee;
+	border-width: 0 0 1px;
+	border-radius: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.product_tab_attributes .ui-tabs.ui-tabs-vertical {
+	border: 0;
+}
+
+.product_tab_attributes .ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+	border: 0;
+	border-radius: 0;
+	width: calc(100% - 201px);
+	padding: 10px 0;
+}
+
+.product_tab_attributes .ui-tabs.ui-tabs-vertical .ui-tabs-panel .btn-holder {
+	padding-left: 10px;
+	margin-bottom: 15px;
+}
+
+.ui-tabs-panel #add_field_row {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.product_tab_attributes .ui-tabs.ui-tabs-vertical .ui-tabs-panel h4 {
+	margin: 0 0 15px 10px;
+}
+
+.product_tab_attributes .ui-tabs.ui-tabs-vertical .ui-tabs-panel p {
+	margin-top: 0;
+}
+
+.product_tab_attributes .ui-tabs .ui-tabs-nav a {
+	background: none;
+	border-radius: 0;
+	width: auto !important;
+	float: none;
+	color: #0073aa;
+	font-size: 13px !important;
+}
+
+.product_tab_attributes .ui-tabs .ui-tabs-nav .ui-tabs-active,
+.product_tab_attributes .ui-tabs .ui-tabs-nav .ui-tabs-active,
+.product_tab_attributes .ui-tabs .ui-tabs-nav .ui-state-focus {
+	background: #eee;
+	color: #555;
+}
+
+.product_tab_attributes .ui-tabs .ui-tabs-nav .ui-tabs-active a,
+.product_tab_attributes .ui-tabs .ui-tabs-nav .ui-tabs-active a,
+.product_tab_attributes .ui-tabs .ui-tabs-nav .ui-state-focus a {
+	color: #555;
+}
+
+#entrada-product-detailtab-meta-box .inside {
+	padding: 0;
+	margin: 0;
+}
+
+/* Entrada product Tab box ..... */
+
+.product-tab-gallery-block .pro-heading {
+	overflow: hidden;
+	margin: 0 0 20px;
+	padding-top: 20px;
+}
+
+.product-tab-gallery-block .pro-heading h4 {
+	overflow: hidden;
+	margin: 7px 0;
+}
+
+.product-tab-gallery-block .pro-heading .btn-holder {
+	float: right;
+	max-width: 50%;
+	padding: 5px 0;
+}
+
+.product-tab-gallery-block .pro-heading .btn-upload {
+	padding: 6px;
+	background: #f7f7f7;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	color: #333;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.product_tab_attributes .img,
+.product_tab_attributes .text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.product_tab_attributes .img {
+	width: 25px;
+	padding-right: 5px;
+}
+
+.product_tab_attributes .img img {
+	max-width: 80%;
+}
+
+.product-tab-gallery-block .pro-heading .btn-upload:hover {
+	background: #ccc;
+}
+
+.product-tab-gallery-block .pro-content {
+	border: 1px solid #e2e2e2;
+	padding: 10px;
+}
+
+#overview table tr td,
+#accommodation table tr td {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+#overview table tr td h4,
+#accommodation table tr td h4 {
+	margin: 0;
+	padding-top: 25px;
+}
+
+.product-tab-gallery-block .pro-content li {
+	display: inline-block;
+	vertical-align: top;
+	width: 31%;
+	padding: 0 5px;
+	margin-bottom: 20px;
+}
+
+.product-tab-gallery-block img {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.product-tab-gallery-block .pro-content .btn-remove {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+/* Post Galleries Images */
+
+#dynamic_form {
+	width: 100%;
+}
+
+/* Gallery thumb styles */
+
+.entrada_thumb {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.entrada_thumb li {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 10px 20px;
+	margin-right: -.25em;
+}
+
+.entrada_thumb .holder {
+	height: 154px;
+	border: 1px solid #d5d5d5;
+	position: relative;
+	padding: 1px;
+	max-width: 154px;
+}
+
+.entrada_thumb .holder img {
+	max-width: 100%;
+}
+
+.entrada_thumb .delete {
+	position: absolute;
+	top: -8px;
+	right: -8px;
+	display: none;
+}
+
+.entrada_thumb .holder:hover .delete {
+	display: block;
+}
+
+.entrada_thumb .holder:hover .delete img {
+	height: auto;
+}
+
+/* global table styles */
+
+.entrada_table td:last-child {
+	width: 160px;
+}
+
+.entrada_table tbody td {
+	border-top: 1px solid #dedede;
+}
+
+.entrada_table tbody tr:first-child td {
+	border-top: 0;
+}
+
+.entrada_table tbody tr:nth-child(even) td {
+	background: #f5f5f5;
+}
+
+.entrada_table tbody tr:hover td {
+	background: #f5f5f5;
+}
+
+.entrada_table input {
+	width: 100%;
+	height: 35px;
+	padding: 8px;
+}
+
+.entrada_table textarea {
+	width: 100%;
+	height: 100px;
+	padding: 8px;
+}
+
+.entrada_faq_table {
+	margin-bottom: 30px;
+}
+
+.entrada_faq_table input {
+	height: 35px;
+	padding: 8px;
+}
+
+/* Add-Ons Block start here ................*/
+
+.entrada-addons {
+	margin: 0 -10px;
+	padding: 0;
+	list-style: none;
+}
+
+.entrada-addons li {
+	display: inline-block;
+	vertical-align: top;
+	width: 170px;
+	margin-right: -.25em;
+	padding: 0 10px 20px;
+}
+
+.entrada-addons li a {
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+}
+
+.entrada-addons li a:hover .img-wrap {
+	background: #f5f5f5;
+}
+
+.entrada-addons li a:hover {
+	color: #000;
+}
+
+.entrada-addons .img-wrap {
+	width: 150px;
+	padding: 10px;
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	background: #fff;
+	height: 100px;
+	white-space: nowrap;
+	margin-bottom: 10px;
+	-webkit-transition: background .3s linear;
+	transition: background .3s linear;
+}
+
+.entrada-addons .img-wrap:after {
+	display: inline-block;
+	content: '';
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -.25em;
+}
+
+.entrada-addons .img-wrap img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 130px;
+	max-height: 70px;
+	height: auto;
+}
+
+.choose_icon_label {
+	float: left;
+	margin-right: 20px;
+}
+
+.entrada-icomoon-select tr td a {
+	color: #000;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.entrada-icomoon-select tr td a:hover {
+	color: #f00;
+}
+
+body.wp-customizer{
+	overflow:visible !important;
+} 
+
+#product_addons_table thead th {
+	background: #f5f5f5;
+	font-weight: bold;
+	padding: 5px;
+	font-size:12px;
+}
+
+#accordion-section-section_footer_social_setting .accordion-section-content > li:nth-child(5),
+#accordion-section-section_footer_social_setting .accordion-section-content > li:nth-child(7),
+#accordion-section-section_footer_social_setting .accordion-section-content > li:nth-child(9),
+#accordion-section-section_footer_social_setting .accordion-section-content > li:nth-child(11),
+#accordion-section-section_footer_social_setting .accordion-section-content > li:nth-child(13),
+#accordion-section-section_footer_social_setting .accordion-section-content > li:nth-child(15),
+#accordion-section-section_footer_social_setting .accordion-section-content > li:nth-child(17),
+#accordion-section-section_footer_social_setting .accordion-section-content > li:nth-child(19),
+#accordion-section-section_footer_social_setting .accordion-section-content > li:nth-child(21),
+#accordion-section-section_footer_social_setting .accordion-section-content > li:nth-child(23),
+#accordion-section-section_footer_social_setting .accordion-section-content > li:nth-child(25) {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #9f9f9f;
+	padding-bottom: 10px;
+}
+.itinerary_wrap {
+    border: #e5e5e5 1px solid;
+
+    padding: 15px 0px;
+}
+.itinerary_wrap:nth-child(odd) {
+    background: #f5f5f5;
+    border-top: none;
+}
+.itinerary_col{
+	width: 50%;
+	float: left;
+}
+.itinerary_row {
+    margin: 0 0 20px;
+    padding: 0 15px;
+}
+.itinerary_row:before{
+	display: table;
+	content: " ";
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.itinerary_row:after {
+	display: table;
+	content: " ";
+	clear: both;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.itinerary_wrap label {
+    display: inline-block;
+    margin-right: 10px;
+    width:74px;
+}
+.itinerary_wrap input[type=button] {
+    margin-left: 89px;
+}
+.itinerary-editor {
+    display: inline-block;
+    width: 85%;
+    float: right;
+}
+a#add_itinerary_row {
+    float: right;
+    display: inline-block;
+    margin-right: 15px;
+}

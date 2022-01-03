@@ -1,0 +1,597 @@
+/*
+Theme Name: Entrada
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+[dir='rtl'] .special-block .special-text {
+	text-align: right;
+}
+
+[dir='rtl'] .description-text h3 {
+	text-align: right;
+}
+
+[dir='rtl'] .blog-single {
+	text-align: right;
+}
+
+[dir='rtl'] .comments .comment-slot .comment-detail {
+	padding-right: 0;
+}
+
+[dir='rtl'] .booking-form .wrap,
+[dir='rtl'] .twocol-form .wrap {
+	padding-right: 0;
+}
+
+.article .thumbnail .meta .country {
+	padding: 0 0 0 5px;
+}
+
+.article .thumbnail .meta .country [class^='icon-'],
+.article .thumbnail .meta .country [class*=' icon-'],
+.article .thumbnail .meta .activity [class^='icon-'],
+.article .thumbnail .meta .activity [class*=' icon-'] {
+	margin: 0 0 0 5px;
+}
+
+.star-rating {
+	direction: ltr;
+}
+
+.detail-accordion {
+	direction: ltr;
+}
+
+.dropdown-menu {
+	text-align: right;
+}
+
+.detail-accordion .slide {
+	text-align: right;
+}
+
+.detail-accordion .slide .slide-holder {
+	padding-right: 0;
+}
+
+.trip-detail .comments .comment-head {
+	direction: rtl;
+}
+
+.recent-block .sub-info > span {
+	max-width: 50%;
+}
+
+.navbar-nav > li:last-child .dropdown-menu,
+.navbar-nav > li.last-dropdown .dropdown-menu {
+	right: auto;
+	left: 0;
+}
+
+.cart-wrap {
+	direction: ltr;
+	text-align: left;
+}
+
+.article .info-day {
+	border-left: 0;
+	border-right: 1px solid #e2e2e2;
+	padding: 0 10px 0 0;
+}
+
+.article .heading h3 {
+	padding: 0 0 0 10px;
+}
+
+.blog-list.list-view .ico-action:before,
+.article.blog-article .ico-action:before,
+.meta-article .ico-action:before {
+	display: none;
+}
+
+.filter-option .select-holder {
+	direction: rtl;
+	float:right;
+	
+}
+
+.filter-option .select-col {
+	direction: rtl;
+}
+
+.side-list.post-list li:before {
+	right: 0;
+	left: auto;
+}
+
+.custom-checkbox .check-input {
+	margin: 0 0 0 5px;
+}
+
+.comments .comment-head {
+	direction: ltr;
+}
+
+.comments .comment-head .left {
+	float: right;
+}
+
+.comments.reply {
+	padding-left: 0;
+	padding-right: 100px;
+}
+
+.comments .comment-slot .thumb {
+	padding-right: 0;
+}
+
+.comments .link-more {
+	margin-right: 175px;
+}
+
+.banner.banner-inner .banner-text {
+	text-align: right;
+}
+
+.recent-block footer {
+	direction: ltr;
+}
+
+.article .thumbnail .meta .country,
+.article .thumbnail .meta .activity {
+	margin-right: 0;
+}
+
+.top-box .left {
+	direction: ltr;
+}
+
+.navbar-default .navbar-nav {
+	padding: 0;
+}
+
+.navbar-default .navbar-nav > li > a > .icon-angle-down {
+	margin-left: 10px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	padding-right: 10px;
+}
+
+.footer-nav h3 {
+	padding-right: 20px;
+}
+
+.footer-nav [class^='icon-'],
+.footer-nav [class*=' icon-'] {
+	float: right;
+}
+
+.article footer .social-networks,
+.article .info-aside .social-networks {
+	float: left;
+}
+
+.header-v1 .has-mega-dropdown.mega-md .dropdown-menu {
+	right: auto;
+	left: 30px;
+}
+
+.dropdown-menu .sub-link-opener {
+	padding-right: 15px;
+}
+
+.dropdown-menu .sub-link-opener:before {
+	top: 14px;
+	right: 0;
+}
+
+.testimonial-holder,
+.rev_slider_wrapper,
+.search-form,
+.trip-info,
+.partner-block,
+.banner-text {
+	direction:ltr;
+}
+
+.newsletter-form [type='submit'] {
+	left: 0;
+	right:auto;
+}
+
+.newsletter-form .input-holder {
+	padding-right: 0;
+	padding-left: 90px;
+}
+
+.list-view .article .ico-list > li {
+	margin: 0 0 0 30px;
+}
+
+.list-view .article .info-footer .ico-action > li {
+	margin: 0 30px 0 0;
+}
+
+.list-view .article .info-footer .ico-action > li:last-child {
+	margin-right: 0;
+}
+
+.list-view .article .ico-list {
+	border-right: 0;
+	border-left: 1px solid #ebebeb;
+}
+
+.product-table tfoot th {
+	border-top: 1px solid rgba(125, 125, 125, .2);
+}
+
+.article .link-view a:after {
+	-webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    margin-right: 5px;
+}
+
+.sidebar #searchform.inner-search [type='text'] {
+	padding: 5px 10px 5px 31px;
+}
+
+.sidebar #searchform.inner-search [type='submit'] {
+	right: auto;
+	left: 10px;
+}
+
+.screen-reader-text {
+	left: 0;
+}
+
+blockquote.testimonial-quote {
+	direction: rtl;
+}
+
+.cart-collaterals th {
+	text-align: right;
+}
+
+.cart-collaterals td {
+	text-align: left;
+}
+
+.feature-block li:first-child:before {
+    display: block;
+}
+
+#add_payment_method #payment ul.payment_methods li,
+.woocommerce-cart #payment ul.payment_methods li,
+.woocommerce-checkout #payment ul.payment_methods li {
+	text-align: right;
+}
+
+#add_payment_method #payment div.payment_box:before,
+.woocommerce-cart #payment div.payment_box:before,
+.woocommerce-checkout #payment div.payment_box:before {
+	left: auto;
+	right: 0;
+}
+
+.product-table {
+	direction: ltr;
+}
+
+.list-view .article .info-footer .ico-action > li {
+	margin: 0 15px;
+}
+
+.list-view .article .info-footer .ico-action > li:first-child {
+	margin-left: 15px;
+}
+
+.screen-reader-text {
+	left: 0;
+}
+
+/*class add by manoz*/
+
+.filter-option .layout-action {
+    float: left;
+    max-width: 140px;
+}
+
+.filter-option .filter-slide .select-col {
+    margin-top: 0;
+    width: 190px;
+}
+
+.jcf-select.jcf-select-filter-select .jcf-select-text {
+    color: #fff;
+    direction: rtl;
+    font-size: 14px;
+    font-weight: 700;
+	text-align:right;   
+    margin-right:0px;
+    padding-right: 15px;
+}
+
+.jcf-select .jcf-select-opener {   
+    right:115px;   
+}
+
+.jcf-list .jcf-option {
+    
+    padding: 10px 15px 10px 10px;
+
+}
+
+
+
+
+.filter-option .layout-holder {
+    float: left;
+    width: 60%;
+}
+
+.filter-option.filter-box .result-info {
+    float: right!important;
+    max-width: 45%;
+}
+
+.sidebar .panel-heading a {
+	display: block;
+	text-transform: uppercase;
+	padding: 10px 50px 10px 30px;
+	background: #f8f8f8;
+	color: #b0a377;
+	box-shadow: 0 1px 1px rgba(1, 2, 2, .1);
+	position: relative;
+}
+
+.sidebar .panel-heading a.collapsed:after {
+	-webkit-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.sidebar .panel-heading a:after {
+	content: '\e906';
+	font: 14px/12px 'icomoon';
+	position: absolute;
+	right:250px!important;
+	top: 15px;
+	-webkit-transition: -webkit-transform .3s linear;
+	transition: transform .3s linear;
+}
+
+.filter-option .select-col {
+    display: inline-block;
+    margin-right: -0.7em;
+}
+
+.list-view .article .info-rate {
+    float: right;
+}
+
+.recent-block .sub-info {
+	float: left!important;
+	width:150px;
+	font-size: 1.143em;
+	line-height: 1em;
+	font-weight: 700;
+	margin: 0 -20px!important;
+}
+
+.recent-block .ico-list {
+	float: right!important;
+	width: calc(100% - 112px);
+	margin: 0 -40px!important;
+}
+
+
+.progress-holder{float:left!important;}
+.vc_column_container{ float:right;}
+
+.filter-option.filter-box .select-holder {
+    text-align: left;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.footer-nav h3 {
+		padding-right: 0;
+	}
+
+	.list-view .article .info-aside {
+		border-width: 0 1px 0 0;
+	}
+
+	.comment-form.blog-comment-form .form-group {
+		float: right;
+	}
+
+	.list-view .article .col-left {
+		float: right;
+	}
+
+	.list-view .article .info-aside {
+		border-width: 0 1px 0 0;
+	}
+	
+	.wpcf7-form .form-title {
+		float: right;	
+	}
+	
+	.wpcf7-form .wpcf7-form-control {
+		direction: rtl;	
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	
+	.nav-right {
+		float: left;
+	}
+	
+	.navbar-default .navbar-nav {
+		float: right;	
+	}
+	
+	.navbar-default .navbar-nav:first-child {
+		padding-left: 10px;	
+	}
+	
+	.navbar-default .navbar-nav .v-divider {
+		border-right: 1px solid #2d2d2d;
+		border-left: 0;
+	}
+
+	[dir='rtl'] .article footer .price,
+	[dir='rtl'] .article .info-aside .price {
+		xfloat: right;
+	}
+
+	.dropdown-menu .sub-link-opener {
+		padding-right: 0;
+	}
+
+	[dir='rtl'] .article footer .social-networks,
+	[dir='rtl'] .article .info-aside .social-networks {
+		float: left;
+	}
+
+	[dir='rtl'] .testimonial-holder .owl-pagination {
+		padding-left: 0;
+		padding-right: 193px;
+	}
+
+	[dir='rtl'] .blog-list.list-view .img-wrap {
+		float: none;
+		width: 250px;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 0 0 20px;
+	}
+
+	[dir='rtl'] .blog-list.list-view .article.blog-article .description {
+		display: inline-block;
+		vertical-align: top;
+		width: calc(100% - 275px);
+		text-align: right;
+	}
+
+	[dir='rtl'] .article.blog-article .description {
+		text-align: right;
+	}
+
+	.logo {
+		float: right;
+		border-right: 0 !important;
+		border-left: 1px solid #2d2d2d;
+	}
+
+	.navbar-nav > li {
+		float: none;
+		display: inline-block;
+	}
+
+	.navbar-nav > li:last-child.v-divider {
+		border: 0;
+	}
+
+	#header.fixed-position .logo {
+		border-left-color: #181818;
+	}
+
+	#header.fixed-position.white-header .logo,
+	#header.fixed-position.default-white-header .logo,
+	.default-page #header.default-white-header .logo,
+	#header.default-white-header .logo {
+		border-left-color: #eaeaea;
+	}
+
+	.content-intro .map-col {
+		float: left;
+		text-align: right;
+	}
+
+	.content-intro .text-holder {
+		float: right;
+		text-align: right;
+	}
+
+	.has-mega-dropdown.mega-md .dropdown-menu {
+		right: auto;
+		left: 140px;
+	}
+
+	.header-v1 .logo {
+		text-align: right;
+		float: right;
+	}
+
+	.header-v1 .navbar-default .navbar-nav {
+		text-align: left;
+		float: left;
+	}
+
+	.testimonial-holder blockquote .text {
+		padding-left: 0;
+		padding-right: 55px;
+	}
+
+	.list-view .article .img-wrap {
+		float: right;
+		margin-right: 0;
+		margin-left: 10px;
+	}
+	
+	.contact-info .vc_col-sm-6 {
+		float: right;	
+	}
+
+}
+
+@media (min-width: 1230px) {
+
+	[dir='rtl'] .footer-bottom .col-lg-6:first-child {
+		float: right;
+		text-align: right;
+	}
+
+	[dir='rtl'] .footer-bottom .payment-option {
+		float: left;
+	}
+
+	[dir='rtl'] .blog-list.list-view .img-wrap {
+		width: 350px;
+	}
+
+	[dir='rtl'] .blog-list.list-view .article.blog-article .description {
+		width: calc(100% - 375px);
+	}
+
+	.has-mega-dropdown.mega-md .dropdown-menu {
+		left: 234px;
+	}
+
+	.list-view-sidebar .list-view .article .img-wrap {
+		float: right;
+		margin: 0 0 0 20px;
+	}
+
+	.list-view .article .col-left {
+		float: right;
+	}
+
+}

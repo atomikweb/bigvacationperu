@@ -1,0 +1,10 @@
+2022-01-03T20:22:54+00:00 CRITICAL Uncaught RuntimeException: No ha sido posible la petición de acciones. Error en la base de datos. in D:\Proyectos Web\bigvacationperu\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:665
+Stack trace:
+#0 D:\Proyectos Web\bigvacationperu\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(588): ActionScheduler_DBStore->claim_actions(0, 25, NULL, Array, '')
+#1 D:\Proyectos Web\bigvacationperu\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(153): ActionScheduler_DBStore->stake_claim(25)
+#2 D:\Proyectos Web\bigvacationperu\wp-content\plugins\woocommerce\packages\action-scheduler\classes\ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#3 D:\Proyectos Web\bigvacationperu\wp-includes\class-wp-hook.php(303): ActionScheduler_QueueRunner->run('WP Cron')
+#4 D:\Proyectos Web\bigvacationperu\wp-includes\class-wp-hook.php(327 en D:\Proyectos Web\bigvacationperu\wp-content\plugins\woocommerce\packages\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php en la línea 665
+
+2022-01-03T20:51:02+00:00 CRITICAL Cannot redeclare filter_created_pages() (previously declared in D:\Proyectos Web\bigvacationperu\wp-content\plugins\woocommerce\includes\wc-update-functions.php:2281) en D:\Proyectos Web\bigvacationperu\wp-content\plugins\woocommerce\includes\wc-update-functions.php en la línea 2281
+
